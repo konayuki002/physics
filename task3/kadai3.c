@@ -7,7 +7,7 @@ static double down = 0;
 static double dx = 0.01;
 
 double sin2(double x){
-    return (sin2(x))^2;
+    return pow((sin(x)), 2);
 }
 int main(void){
     double ans;
