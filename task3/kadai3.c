@@ -9,6 +9,7 @@ static double dx = 0.01;
 double sin2(double x){
     return pow((sin(x)), 2);
 }
+
 int main(void){
     double ans;
     for(double x = 0; x <= up; x += dx){
