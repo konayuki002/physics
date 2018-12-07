@@ -2,7 +2,7 @@
 #include <math.h>
 
 static int N = 1;
-static int MAX = 100;
+static int MAX = 10000;
 
 double tailor_atan(double x){
     double ret = 0;
