@@ -14,10 +14,10 @@ double tailor_atan(double x){
 
 int main(void){
     double pi = atan(1.0) * 4;
-    printf("math.h atan(1.0) = %lf\n", pi);
-    printf("N: difference\n");
+    //printf("math.h atan(1.0) = %lf\n", pi);
+    //printf("N: difference\n");
     for(N = 1; N<=MAX; N++){
         double pi_ = tailor_atan(1) * 4;
-        printf("%d: %lf\n", N, pi_ - pi);
+        printf("%d %lf\n", N, pi_ - pi);
     }
 }
